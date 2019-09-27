@@ -1,3 +1,0 @@
-const key = "FqoRZAlegM6ySdHIEiiB3mwwb03fRoaj";
-
-const base = 'http://dataservice.accuweather.com/locations/v1/cities/search';
