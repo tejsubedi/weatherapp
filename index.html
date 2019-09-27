@@ -10,7 +10,27 @@
     <title>Weather Application</title>
 </head>
 <body>
-    
+    <div class="container my-5 mx-auto">
+
+        <h1 class="text-center my-4">
+            Weather Application
+        </h1>
+        <form class="location my-4 text-center">
+            <label for="city">Enter a location of Weather information</label>
+            <input type="text" name="city" class="form-control p-4">
+        </form>
+
+        <div class="card shadow-lg rounded" style="width: 18rem;">
+            <img src="https://via.placeholder.com/400x300" class="time card-image-top">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="card-link">Card link</a>
+              <a href="#" class="card-link">Another link</a>
+            </div>
+          </div>
+    </div>
 
     <script src="scripts/forecast.js"></script>
     <script src="scripts/app.js"></script>
